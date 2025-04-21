@@ -1,0 +1,7 @@
+# ignore build artifacts
+*.deb
+*.dsc
+*.changes
+debian/*.build
+debian/*.debhelper/
+debian/*/   # but not debian/control, changelog, compat, rules, install, docs
