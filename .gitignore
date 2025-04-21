@@ -5,3 +5,7 @@
 debian/*.build
 debian/*.debhelper/
 debian/*/   # but not debian/control, changelog, compat, rules, install, docs
+# Ignore pycache in any directory, including usr/bin
+**/__pycache__/
+*.py[cod]
+*$py.class
