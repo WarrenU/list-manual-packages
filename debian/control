@@ -1,0 +1,14 @@
+Source: list-manual-packages
+Section: utils
+Priority: optional
+Maintainer: Warren Urbina <warren.urbina@gmail.com>
+Build-Depends: debhelper (>= 13), python3
+Standards-Version: 4.5.0
+Homepage: https://example.com
+
+Package: list-manual-packages
+Architecture: all
+Depends: ${misc:Depends}, python3
+Description: Lists manually installed Debian packages
+ A simple tool that parses dpkg data and displays packages
+ explicitly installed by the user.

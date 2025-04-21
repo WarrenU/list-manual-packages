@@ -1,0 +1,12 @@
+Package: list-manual-packages
+Version: 1.0
+Architecture: all
+Maintainer: Warren Urbina <warren.urbina@gmail.com>
+Installed-Size: 11
+Depends: python3
+Section: utils
+Priority: optional
+Homepage: https://example.com
+Description: Lists manually installed Debian packages
+ A simple tool that parses dpkg data and displays packages
+ explicitly installed by the user.
